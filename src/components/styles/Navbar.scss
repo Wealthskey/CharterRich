@@ -1,0 +1,33 @@
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    background-color: #215097;
+    .logo{
+        // position: relative;
+        width: 355.19px;
+        height: 70px;
+        margin-left: 30px;
+        top: 11px;
+    }
+    .item{
+        display: flex;
+        .ul{
+            display: flex;
+            list-style-type: none;
+            margin: 25px; 
+            li{
+                margin: 0 1rem;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+ }
+ 
