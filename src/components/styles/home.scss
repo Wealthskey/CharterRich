@@ -1,0 +1,302 @@
+
+
+hr {
+    border: 1px solid #565B73;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.home-first {
+    background: #EBECF3;
+    padding-bottom: 2%;
+    padding-top: 5%;
+
+    .BC_picture {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        width: 80%;
+        height: 20vw;
+    }
+    .BC_logo {
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-right: 1vw;
+    }
+    p {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    ul {
+        li {
+            margin-left: 15%;
+        }
+        font-weight: 400;
+        font-size: 22px;
+        margin-top: 1%;
+    }
+}
+
+.home-second {
+    background: #EAEAEA;
+    padding-bottom: 2%;
+
+    p {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    ul {
+        font-weight: 400;
+        font-size: 22px;
+        margin-top: 1%;
+    }
+
+    li {
+        margin-left: 15%;
+    }
+
+    .RD_picture {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        width: 80%;
+        height: 20vw;
+    }
+
+    .RD_logo {
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-right: 1vw;
+    }
+}
+
+.home-third {
+    background: #E0E0E0;
+    padding-bottom: 2%;
+
+    p {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    ul {
+        font-weight: 400;
+        font-size: 22px;
+        margin-top: 1%;
+    }
+
+    li {
+        margin-left: 15%;
+    }
+
+    .TC_picture {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        width: 80%;
+        height: 20vw;
+    }
+
+    .TC_logo {
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-right: 1vw;
+    }
+}
+
+.home-final {
+    background: #D6D6D6;
+    padding-bottom: 2%;
+}
+
+.final-first {
+    padding-bottom: 8%;
+    margin-bottom: 5%;
+
+    .box {
+        float: left;
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+        margin-left: 10%;
+        background: #F1F3FA;
+        border: 1.3px solid #3B3C44;
+        border-radius: 40px;
+        margin-right: 2%;
+        margin-top: 2%;
+        margin-bottom: 10%;
+
+        img {
+            width: 60%;
+            height: auto;
+            padding-top: 10%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 27px;
+            letter-spacing: 0.03em;
+            padding-left: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+
+            span {
+                color: darkgreen;
+            }
+        }
+
+        .download {
+            width: 80%;
+            background: #405173;
+            color: #FFFFFF;
+            font-weight: 700;
+            font-size: 24.0603px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: 0.601508px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+    }
+
+    p.description {
+        font-size: 27px;
+        letter-spacing: 0.07em;
+        color: #000000;
+        padding-top: 8%;
+        max-width: 65%;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+
+.final-second {
+    p {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 0.07em;
+        color: #000000;
+        width: 80%;
+        margin-left: 30%;
+        
+    }
+
+    .contact-form {
+        background: #A5C6CD;
+        width: 600px;
+        height: 520px;
+        margin-left: 40%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-top: 2%;
+        padding: 2%;
+
+        form {
+            .inputContainer-name {
+                height: 60px;
+                width: 80%;
+                padding-bottom: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+
+                input {
+                    height: 100%;
+                    width: 100%;
+                    border: 1px solid blue;
+                    border-radius: 4px;
+                    font-size: 22px;
+                    background: #FFFFFF;
+                }
+
+                label {
+                    padding: 0px;
+                    margin: 0;
+                    color: blue;
+                    font-size: 16px;
+
+                }
+            }
+            .inputContainer-phone {
+                height: 60px;
+                width: 80%;
+                padding-bottom: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+
+                input {
+                    height: 100%;
+                    width: 100%;
+                    border: 1px solid blue;
+                    border-radius: 4px;
+                    font-size: 22px;
+                    background: #FFFFFF;
+                }
+
+                label {
+                    padding: 0px;
+                    margin: 0;
+                    color: blue;
+                    font-size: 16px;
+
+                }
+            }
+            .inputContainer-email {
+                height: 60px;
+                width: 80%;
+                padding-bottom: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+
+                input {
+                    height: 100%;
+                    width: 100%;
+                    border: 1px solid blue;
+                    border-radius: 4px;
+                    font-size: 22px;
+                    background: #FFFFFF;
+                }
+
+                label {
+                    padding: 0px;
+                    margin: 0;
+                    color: blue;
+                    font-size: 16px;
+
+                }
+            }
+
+            .send {
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 10px;
+                width: 80%;
+                background: #000000;
+                color: #FFFFFF;
+                font-weight: 700;
+                font-size: 24.0603px;
+                line-height: 38px;
+                text-align: center;
+                letter-spacing: 0.601508px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
