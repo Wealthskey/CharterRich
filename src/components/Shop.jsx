@@ -22,7 +22,7 @@ const Shop = () => {
             <p>{item.description}</p>
             <h1 className="price">
               {item.price}
-              <span>{item.currency}</span>
+              {/* <span>{item.currency}</span> */}
             </h1>
           </div>
         </div>
