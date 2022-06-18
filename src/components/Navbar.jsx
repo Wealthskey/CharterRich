@@ -5,13 +5,13 @@ import "./styles/Navbar.scss";
 const Navbar = () => {
   return (
     <div className="header">
-      <Link to="/">
+      <Link to="/CharterRich">
         <img src={logo} alt="logo" className="logo" />
       </Link>
       <nav className="item">
         <ul className="ul">
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/CharterRich">HOME</Link>
           </li>
           <li>
             <Link to="/shop">E-SHOP</Link>
