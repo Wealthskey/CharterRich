@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/CharterRich/static/css/main.7b2fc9e3.css",
+    "main.js": "/CharterRich/static/js/main.e9c048ff.js",
+    "static/media/product6.jpg": "/CharterRich/static/media/product6.b82d9c057c98eb2119cf.jpg",
+    "static/media/product7.jpg": "/CharterRich/static/media/product7.716eec7686753b3b076c.jpg",
+    "static/media/product10.jpg": "/CharterRich/static/media/product10.078fc57f6ad0b79ec601.jpg",
+    "static/media/product3.jpg": "/CharterRich/static/media/product3.a9f5cee1cb46b88f844a.jpg",
+    "static/media/product4a.jpg": "/CharterRich/static/media/product4a.7f1e81053158a10cdbe7.jpg",
+    "static/media/product9.jpg": "/CharterRich/static/media/product9.eb47db14686b8f57185f.jpg",
+    "static/media/product8.jpg": "/CharterRich/static/media/product8.80fe1395f69b2efdfb68.jpg",
+    "static/media/product2.jpg": "/CharterRich/static/media/product2.4ca9fdb28ae7823505f2.jpg",
+    "static/media/product5b.jpg": "/CharterRich/static/media/product5b.107d0920fbec77d945d8.jpg",
+    "static/media/product1.jpg": "/CharterRich/static/media/product1.c4e38461c522c8850d91.jpg",
+    "static/media/product4b.jpg": "/CharterRich/static/media/product4b.8da90b45114eb6bc44ec.jpg",
+    "static/media/about1.png": "/CharterRich/static/media/about1.ed4dc5da3f50634a9066.png",
+    "static/media/img1.png": "/CharterRich/static/media/img1.16a92eba1cb3b94de0dd.png",
+    "static/media/lockdown2.png": "/CharterRich/static/media/lockdown2.4334a987197d86e8cddb.png",
+    "static/media/img3.png": "/CharterRich/static/media/img3.a724e933db3e7f20976d.png",
+    "static/media/img2.png": "/CharterRich/static/media/img2.8aeed87a90a0172566b5.png",
+    "static/media/product5a.jpg": "/CharterRich/static/media/product5a.f4a9e8dabd934a020789.jpg",
+    "static/media/sharewons.png": "/CharterRich/static/media/sharewons.c8cb9863cc7fea5136e2.png",
+    "static/media/project1.png": "/CharterRich/static/media/project1.bb52ebd321a4c1d32c42.png",
+    "index.html": "/CharterRich/index.html",
+    "main.7b2fc9e3.css.map": "/CharterRich/static/css/main.7b2fc9e3.css.map",
+    "main.e9c048ff.js.map": "/CharterRich/static/js/main.e9c048ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b2fc9e3.css",
+    "static/js/main.e9c048ff.js"
+  ]
+}
