@@ -1,27 +1,119 @@
-.aboutAll{
-    background-color: #F2F2F2;
-}
-
-#img-about{
-    margin-left: 5%;
-    margin-top : 168px;
-    height:45vh;
-    width: 90vw;
-}
-.content-about{
-    margin-top: 75px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 150px;
-    display: flex;
-
-    p{  
-        font-weight: lighter;
-        font-size: 22px;
-        letter-spacing: 1px;
-        em{
-            font-size: 28px;
-            font-weight: 600;
-        }
+.aboutAll {
+  background-color: #f2f2f2;
+  .projectAll {
+    #img-project {
+      margin-left: 10%;
+      text-align: center;
+      // margin-right: 160px;
+      margin-top: 180px;
+      margin-bottom: 100px;
+      // margin-left: ;
+      width: 80vw;
+      height: 24vh;
     }
+    #img-lockdown {
+      width: 90vw;
+      height: 55vh;
+      margin-top: 60px;
+      margin-left: 5%;
+
+      margin-bottom: 200px;
+    }
+    .title {
+      display: flex;
+      margin-left: 7%;
+      h2 {
+        padding-top: 3px;
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+    .content {
+      p {
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 15px;
+        margin-bottom: 100px;
+        font-size: 22px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .contact-form {
+    background: #a5c6cd;
+    width: 598px;
+    height: 520px;
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 35%;
+    padding: 2%;
+
+    form {
+      .inputContainer {
+        height: 60px;
+        width: 80%;
+        margin-bottom: 60%;
+        margin-left: 10%;
+        //   margin-right: 10%;
+
+        input {
+          height: 50px;
+          width: 100%;
+          border: 1px solid blue;
+          margin-bottom: 50px;
+          border-radius: 4px;
+          font-size: 22px;
+          background: #ffffff;
+        }
+
+        label {
+          padding: 0px;
+          margin: 0;
+          color: blue;
+          font-size: 16px;
+        }
+      }
+
+      .send {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        background: #000000;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: 0.601508px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+#img-about {
+  margin-left: 5%;
+  padding-top: 13%;
+  height: 70vh;
+  width: 90vw;
+}
+.content-about {
+  margin-top: 75px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 150px;
+  display: flex;
+
+  p {
+    font-weight: lighter;
+    font-size: 22px;
+    letter-spacing: 1px;
+    em {
+      font-size: 28px;
+      font-weight: 600;
+    }
+  }
 }

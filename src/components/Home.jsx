@@ -103,17 +103,19 @@ const Home = () => {
           <p>Contact our consultants for a demo and solution discussions!</p>
           <div className="contact-form">
             <form onSubmit={sendEmail}>
-              <div className="inputContainer-name">
-                <label for="name">Name*</label>
-                <input type="text" id="name" name="name" />
-              </div>
-              <div className="inputContainer-phone">
-                <label for="phone">Phone*</label>
-                <input type="text" id="phone" name="phone" />
-              </div>
-              <div className="inputContainer-email">
-                <label for="email">Email*</label>
-                <input type="email" id="email" name="email" />
+              <div className="inputContainer">
+                <div>
+                  <label for="name">Name*</label>
+                  <input type="text" id="name" name="name" />
+                </div>
+                <div>
+                  <label for="phone">Phone*</label>
+                  <input type="text" id="phone" name="phone" />
+                </div>
+                <div>
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" name="email" />
+                </div>
               </div>
               <button type="submit" className="send">
                 send
