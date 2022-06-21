@@ -57,15 +57,15 @@ const product_card = [
     // currency: "HKD",
     thumb: [product5a, product5b],
   },
-  {
-    id: 6,
-    product_name: "Japanese dried Kelp",
-    description:
-      "135g, Made in Hokkaido, Japan. Effectively reduce blood pressure in your body",
-    price: "120.00 HKD",
-    // currency: "HKD",
-    thumb: [product6],
-  },
+  // {
+  //   id: 6,
+  //   product_name: "Japanese dried Kelp",
+  //   description:
+  //     "135g, Made in Hokkaido, Japan. Effectively reduce blood pressure in your body",
+  //   price: "120.00 HKD",
+  //   // currency: "HKD",
+  //   thumb: [product6],
+  // },
   {
     id: 7,
     product_name: "Physiogel Calming Relief AI Cream",

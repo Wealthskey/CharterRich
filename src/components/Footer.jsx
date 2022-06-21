@@ -25,7 +25,7 @@ const Footer = () => {
         </span>
       </p>
       <p className="ftr-menu">
-        <Link Link to="/">
+        <Link Link to="/CharterRich">
           <span>Home</span>
         </Link>
         <Link to="/shop">
