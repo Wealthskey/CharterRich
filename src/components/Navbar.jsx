@@ -13,28 +13,31 @@ const Navbar = () => {
   };
 
   return (
-    <div className="nav">
-      <Link to="/CharterRich">
-        <img src={logo} alt="logo" className="logo" />
-      </Link>
-      <ul className={active}>
-        {/* <li>
+    <>
+      <div className="nav">
+        <Link to="/CharterRich">
+          <img src={logo} alt="logo" className="logo" />
+        </Link>
+        <ul className={active}>
+          {/* <li>
             <Link to="/CharterRich">HOME</Link>
           </li> */}
-        <li className="nav_item">
-          <Link to="/shop">E-SHOP</Link>
-        </li>
-        {/* <li>
+          <li className="nav_item">
+            <Link to="/shop">E-SHOP</Link>
+          </li>
+          {/* <li>
             <Link to="/project">LWD20</Link>
           </li> */}
-        <li className="nav_item">
-          <Link to="/about">ABOUT</Link>
-        </li>
-      </ul>
-      <div onClick={navToggle} className="nav_toggler">
-        <GiHamburgerMenu />
+          <li className="nav_item">
+            <Link to="/about">ABOUT</Link>
+          </li>
+        </ul>
+        <div onClick={navToggle} className="nav_toggler">
+          <GiHamburgerMenu />
+        </div>
       </div>
-    </div>
+      <div className="nav_fixed"></div>
+    </>
   );
 };
 

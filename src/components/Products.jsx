@@ -15,8 +15,8 @@ const product_card = [
   {
     id: 1,
     product_name: "Cuccio Cuticle Revitalizing Oil (Almond)",
-    description:
-      "75ml, 100% brand new & authentic. Made in USA. Provide moisture to hair and nail. Provide moisture to hair and nail ",
+    // description:
+    //   "75ml, 100% brand new & authentic. Made in USA. Provide moisture to hair and nail. Provide moisture to hair and nail ",
     price: "150.00 HKD",
     // currency: "HKD",
     thumb: [product1],
@@ -24,8 +24,8 @@ const product_card = [
   {
     id: 2,
     product_name: "Cuccio Cuticle Revitalizing Oil Almond (Milk & Honey)",
-    description:
-      "75ml, 100% brand new & authentic. Made in USA. Provide moisture to hair and nail. Provide moisture to hair and nail",
+    // description:
+    //   "75ml, 100% brand new & authentic. Made in USA. Provide moisture to hair and nail. Provide moisture to hair and nail",
     price: "150.00 HKD",
     // currency: "HKD",
     thumb: [product2],
@@ -33,8 +33,8 @@ const product_card = [
   {
     id: 3,
     product_name: "Cuccio Cuticle Revitalizing Oil (White Limetta & Aloe Vera)",
-    description:
-      "75ml, 100% brand new & authentic. Made in USA. Provide moisture to hair and nail. Provide moisture to hair and nail",
+    // description:
+    //   "75ml, 100% brand new & authentic. Made in USA. Provide moisture to hair and nail. Provide moisture to hair and nail",
     price: "150.00 HKD",
     // currency: "HKD",
     thumb: [product3],
@@ -42,8 +42,8 @@ const product_card = [
   {
     id: 4,
     product_name: "Physiogel Calming Relief AI Lotion",
-    description:
-      "400ml, Contains skin lipids, including PEA, can quickly relieve dryness, redness and itching.Improve skin softness and smoothness",
+    // description:
+    //   "400ml, Contains skin lipids, including PEA, can quickly relieve dryness, redness and itching.Improve skin softness and smoothness",
     price: "350.00 HKD",
     // currency: "HKD",
     thumb: [product4a, product4b],
@@ -51,8 +51,8 @@ const product_card = [
   {
     id: 5,
     product_name: "Physiogel Daily Moisture Therapy Cream",
-    description:
-      "150ml, provide long-lasting hydration for the skin, makes it less sensitive",
+    // description:
+    //   "150ml, provide long-lasting hydration for the skin, makes it less sensitive",
     price: "250.00 HKD",
     // currency: "HKD",
     thumb: [product5a, product5b],
@@ -69,7 +69,7 @@ const product_card = [
   {
     id: 7,
     product_name: "Physiogel Calming Relief AI Cream",
-    description: "100ml, For dry, sensitive and eczema-prone skin",
+    // description: "100ml, For dry, sensitive and eczema-prone skin",
     price: "180.00 HKD",
     // currency: "HKD",
     thumb: [product7],
@@ -77,7 +77,7 @@ const product_card = [
   {
     id: 8,
     product_name: "Physiogel Daily Moisture Therapy Dermo-Cleanser",
-    description: "150ml, Soap-free, balance PH, reduce the skin stimulation",
+    // description: "150ml, Soap-free, balance PH, reduce the skin stimulation",
     price: "67.50 HKD",
     // currency: "HKD",
     thumb: [product8],
@@ -85,8 +85,8 @@ const product_card = [
   {
     id: 9,
     product_name: "Physiogel Calming Relief AI Lotion",
-    description:
-      "400ml, Contains skin lipids, including PEA, can quickly relieve dryness, redness and itching. Improve skin softness and smoothness",
+    // description:
+    //   "400ml, Contains skin lipids, including PEA, can quickly relieve dryness, redness and itching. Improve skin softness and smoothness",
     price: "350.00 HKD",
     // currency: "HKD",
     thumb: [product9],
@@ -94,7 +94,7 @@ const product_card = [
   {
     id: 10,
     product_name: "Physiogel Calming Relief Face Cream Rich",
-    description: "40ml, Physiogel BioMimic Technology, good for allergic skin ",
+    // description: "40ml, Physiogel BioMimic Technology, good for allergic skin ",
     price: "120.00 HKD",
     // currency: "HKD",
     thumb: [product10],
