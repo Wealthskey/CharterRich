@@ -43,11 +43,11 @@ const Shop = () => {
       <div className="shopAll">
         <h2 className="shopTitle">Charter Rich's E-Shop</h2>
         <img src={Img_shop} id="img_shop" />
-        <h className="shopIntro">
+        <h2 className="shopIntro">
           Explore our full lifestyle lines of skincare, bodycare, healthcare and
           fragrance online. The collection of your everyday use and health
           journey.
-        </h>
+        </h2>
         <div className="card-list">{listItems}</div>
       </div>
       <Footer />
