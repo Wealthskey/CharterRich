@@ -12,11 +12,13 @@ const Shop = () => {
         <div className="card_imgBox">
           <SimpleImageSlider
             className="card_img"
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             images={item.thumb}
             showBullets={true}
             showNavs={true}
+            navSize={25}
+            navMargin={10}
           />
           <div className="card_info">
             <h2>{item.product_name} </h2>

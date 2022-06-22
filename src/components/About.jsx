@@ -66,16 +66,16 @@ const About = () => {
         </div>
         <div className="projectAll">
           <img id="img-project" src={ImgProject} />
-          <div className="title">
+          {/* <div className="title">
             <img id="icon-world" src={IconWorld} />
             <h2> &nbsp;&nbsp;Project LWD20</h2>
-          </div>
+          </div> */}
           <div className="content">
             <p>
-              Project Lock World Down 20 is a social project led by our company,
-              an initiative with the intention to stop coronavirus' transmission
-              around the world by running a worldwide lockdown all together the
-              same time, for 20 days.
+              <em>Project Lock World Down 20</em> is a social project led by our
+              company, an initiative with the intention to stop coronavirus'
+              transmission around the world by running a worldwide lockdown all
+              together the same time, for 20 days.
               <br></br>
               <br></br>
               <br></br>

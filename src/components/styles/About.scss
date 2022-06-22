@@ -1,18 +1,42 @@
 .aboutAll {
   background-color: #f2f2f2;
+  #img-about {
+    margin-left: 4.35%;
+    margin-right: 4.35%;
+    padding-top: 5%;
+    height: 70vh;
+    width: 90vw;
+  }
+  .content-about {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    p {
+      font-weight: lighter;
+      font-size: 2.5vw;
+      letter-spacing: 1px;
+      em {
+        font-size: 3.4vw;
+        font-weight: 600;
+      }
+    }
+  }
   .projectAll {
     #img-project {
-      margin-left: 10%;
+      margin-left: 4%;
+      margin-right: 8.8%;
       text-align: center;
-      width: 80vw;
-      height: 24vh;
+      width: 90vw;
+      height: 30vh;
     }
     #img-lockdown {
       width: 90vw;
       height: 55vh;
-      margin-top: 60px;
-      margin-left: 5%;
-      margin-bottom: 200px;
+      margin-top: 4%;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 10%;
     }
     .title {
       display: flex;
@@ -24,14 +48,17 @@
       }
     }
     .content {
+      margin-top: 3%;
+      margin-left: 5%;
+      margin-right: 5%;
       p {
-        margin-left: 7%;
-        margin-right: 7%;
-        margin-top: 15px;
-        margin-bottom: 100px;
-        font-size: 22px;
         font-weight: lighter;
+        font-size: 2.5vw;
         letter-spacing: 1px;
+        em {
+          font-size: 3.4vw;
+          font-weight: 600;
+        }
       }
     }
   }
@@ -89,27 +116,18 @@
   }
 }
 
-#img-about {
-  margin-left: 4.35%;
-  margin-right: 4.35%;
-  padding-top: 5%;
-  height: 70vh;
-  width: 90vw;
-}
-.content-about {
-  margin-top: 75px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 150px;
-  display: flex;
-
-  p {
-    font-weight: lighter;
-    font-size: 22px;
-    letter-spacing: 1px;
-    em {
-      font-size: 28px;
-      font-weight: 600;
+@media screen and (max-width: 800px) {
+  .aboutAll {
+    #img-about {
+      height: 35vh;
+    }
+    .projectAll {
+      #img-project {
+        height: 15vh;
+      }
+      #img-lockdown {
+        height: 30vh;
+      }
     }
   }
 }
