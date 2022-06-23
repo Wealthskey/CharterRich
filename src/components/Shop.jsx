@@ -12,8 +12,8 @@ const Shop = () => {
         <div className="card_imgBox">
           <SimpleImageSlider
             className="card_img"
-            width={200}
-            height={200}
+            width={"28vw"}
+            height={"24vw"}
             images={item.thumb}
             showBullets={true}
             showNavs={true}
@@ -28,12 +28,12 @@ const Shop = () => {
               {item.price} */}
             {/* <span>{item.currency}</span> */}
             {/* </h1> */}
-            <a
-              href="https://charterrich-eshop.company.site/"
-              className="card_shopNow"
-            >
-              SHOP NOW &gt;{" "}
-            </a>
+
+            <button className="card_shopNow">
+              <a href="https://charterrich-eshop.company.site/">
+                SHOP NOW &gt;
+              </a>
+            </button>
           </div>
         </div>
       </section>

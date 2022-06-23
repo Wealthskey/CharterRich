@@ -10,18 +10,21 @@ const Footer = () => {
     <section className="footer">
       <p className="ftr-info">
         <span className="info_box">
-          <MdLocationOn style={{ marginLeft: "-20px" }} />
-          &nbsp; Room 2903, 28/F, Modern Warehouse,<br></br>6 Shing Yip Street,
-          Kwun Tong, Kowloon, Hong Kong
+          <MdLocationOn style={{ marginLeft: "-50x" }} />
+          &nbsp; Room 2903, 28/F, Modern Warehouse, 6 Shing Yip Street, Kwun
+          Tong, Kowloon, Hong Kong
         </span>
         <span>&nbsp;</span>
         <span className="info_box">
-          <FaPhoneAlt style={{ marginLeft: "-20px" }} />
+          <FaPhoneAlt style={{ marginLeft: "-50px" }} />
           &nbsp; (852)12345678
         </span>
         <span className="info_box">
-          <MdEmail style={{ marginLeft: "-20px" }} />
+          <MdEmail style={{ marginLeft: "-50px" }} />
           &nbsp; admin@charterrich.com
+        </span>
+        <span className="info_copyright">
+          @ 2022 Charter Rich Hong Kong Limited, All rights reserved
         </span>
       </p>
       <p className="ftr-menu">
@@ -34,8 +37,6 @@ const Footer = () => {
         <Link to="/about">
           <span>About</span>
         </Link>
-        &nbsp;
-        <span>@2022 Charter Rich Hong Kong Limited, All rights reserved</span>
       </p>
     </section>
   );

@@ -19,15 +19,9 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="logo" />
         </Link>
         <ul className={active}>
-          {/* <li>
-            <Link to="/CharterRich">HOME</Link>
-          </li> */}
           <li className="nav_item">
             <Link to="/shop">E-SHOP</Link>
           </li>
-          {/* <li>
-            <Link to="/project">LWD20</Link>
-          </li> */}
           <li className="nav_item">
             <Link to="/about">ABOUT</Link>
           </li>
