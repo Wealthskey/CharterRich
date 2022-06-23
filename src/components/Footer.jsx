@@ -31,14 +31,10 @@ const Footer = () => {
         <Link to="/shop">
           <span>E-Shop</span>
         </Link>
-        {/* <Link to="/project">
-          <span>LWD20</span>
-        </Link> */}
         <Link to="/about">
           <span>About</span>
         </Link>
-        <span>&nbsp;</span>
-
+        &nbsp;
         <span>@2022 Charter Rich Hong Kong Limited, All rights reserved</span>
       </p>
     </section>
