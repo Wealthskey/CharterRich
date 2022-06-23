@@ -10,17 +10,17 @@ const Footer = () => {
     <section className="footer">
       <p className="ftr-info">
         <span className="info_box">
-          <MdLocationOn style={{ marginLeft: "-50x" }} />
+          <MdLocationOn style={{ marginLeft: "-30px" }} />
           &nbsp; Room 2903, 28/F, Modern Warehouse, 6 Shing Yip Street, Kwun
           Tong, Kowloon, Hong Kong
         </span>
-        <span>&nbsp;</span>
+
         <span className="info_box">
-          <FaPhoneAlt style={{ marginLeft: "-50px" }} />
+          <FaPhoneAlt style={{ marginLeft: "-30px" }} />
           &nbsp; (852)12345678
         </span>
         <span className="info_box">
-          <MdEmail style={{ marginLeft: "-50px" }} />
+          <MdEmail style={{ marginLeft: "-30px" }} />
           &nbsp; admin@charterrich.com
         </span>
         <span className="info_copyright">
