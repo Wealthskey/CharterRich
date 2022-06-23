@@ -1,8 +1,8 @@
 .aboutAll {
   background-color: #f2f2f2;
   #img-about {
-    margin-left: 4.35%;
-    margin-right: 4.35%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 5%;
     height: 70vh;
     width: 90vw;
@@ -14,18 +14,18 @@
     margin-bottom: 3%;
     p {
       font-weight: lighter;
-      font-size: 2.5vw;
+      font-size: 1.2rem;
       letter-spacing: 1px;
       em {
-        font-size: 3.4vw;
+        font-size: 1.4rem;
         font-weight: 600;
       }
     }
   }
   .projectAll {
     #img-project {
-      margin-left: 4%;
-      margin-right: 8.8%;
+      margin-left: 5%;
+      margin-right: 5%;
       text-align: center;
       width: 90vw;
       height: 30vh;
@@ -53,10 +53,10 @@
       margin-right: 5%;
       p {
         font-weight: lighter;
-        font-size: 2.5vw;
+        font-size: 1.2rem;
         letter-spacing: 1px;
         em {
-          font-size: 3.4vw;
+          font-size: 1.4rem;
           font-weight: 600;
         }
       }
@@ -64,54 +64,50 @@
   }
   .contact-form {
     background: #a5c6cd;
-    width: 598px;
-    height: 520px;
-    align-content: center;
+    width: 40%;
+    height: 100%;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-top: 2%;
-    margin-left: 35%;
+    margin-top: 5%;
+    margin-left: 30%;
     padding: 2%;
+    margin-bottom: 3%;
 
-    form {
-      .inputContainer {
-        height: 60px;
-        width: 80%;
-        margin-bottom: 60%;
-        margin-left: 10%;
-        //   margin-right: 10%;
+    form.inputContainer {
+      padding-left: 10%;
+      width: 80%;
 
-        input {
-          height: 50px;
-          width: 100%;
-          border: 1px solid blue;
-          margin-bottom: 50px;
-          border-radius: 4px;
-          font-size: 22px;
-          background: #ffffff;
-        }
-
-        label {
-          padding: 0px;
-          margin: 0;
-          color: blue;
-          font-size: 16px;
-        }
+      input {
+        margin-bottom: 10%;
+        width: 100%;
+        line-height: 40px;
+        margin-right: 5%;
+        border: 1px solid blue;
+        border-radius: 4px;
+        font-size: 1rem;
       }
 
-      .send {
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
-        background: #000000;
-        color: #ffffff;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 45px;
-        text-align: center;
-        letter-spacing: 0.601508px;
-        text-transform: uppercase;
+      label {
+        color: blue;
+        font-size: 1rem;
       }
+    }
+
+    .send {
+      width: 80%;
+      margin-left: 10%;
+      background: #000000;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 38px;
+      letter-spacing: 0.601508px;
+      text-transform: uppercase;
+      margin-top: 20px;
+    }
+
+    .send:hover {
+      background: #2d2c2c;
     }
   }
 }

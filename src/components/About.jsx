@@ -5,7 +5,6 @@ import emailjs from "emailjs-com";
 import ImgAbout from "./img/about1.png";
 import ImgProject from "./img/project1.png";
 import ImgLockDown from "./img/lockdown2.png";
-import IconWorld from "./img/image 5.png";
 import "./styles/About.scss";
 
 const About = () => {
@@ -44,21 +43,17 @@ const About = () => {
           </p>
         </div>
         <div className="contact-form">
-          <form onSubmit={sendEmail}>
-            <div className="inputContainer">
-              <div>
-                <label for="name">Name*</label>
-                <input type="text" id="name" name="name" />
-              </div>
-              <div>
-                <label for="phone">Phone*</label>
-                <input type="text" id="phone" name="phone" />
-              </div>
-              <div>
-                <label for="email">Email*</label>
-                <input type="email" id="email" name="email" />
-              </div>
-            </div>
+          <form onSubmit={sendEmail} className="inputContainer">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+
+            <label for="phone">Phone*</label>
+            <input type="text" id="phone" name="phone" required />
+            <br />
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required />
+            <br />
             <button type="submit" className="send">
               send
             </button>
@@ -66,10 +61,6 @@ const About = () => {
         </div>
         <div className="projectAll">
           <img id="img-project" src={ImgProject} />
-          {/* <div className="title">
-            <img id="icon-world" src={IconWorld} />
-            <h2> &nbsp;&nbsp;Project LWD20</h2>
-          </div> */}
           <div className="content">
             <p>
               <em>Project Lock World Down 20</em> is a social project led by our

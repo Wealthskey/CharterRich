@@ -5,7 +5,6 @@ import product4a from "./img/product4a.jpg";
 import product4b from "./img/product4b.jpg";
 import product5a from "./img/product5a.jpg";
 import product5b from "./img/product5b.jpg";
-import product6 from "./img/product6.jpg";
 import product7 from "./img/product7.jpg";
 import product8 from "./img/product8.jpg";
 import product9 from "./img/product9.jpg";
