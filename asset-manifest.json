@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CharterRich/static/css/main.dcea12b4.css",
+    "main.css": "/CharterRich/static/css/main.beafef7c.css",
     "main.js": "/CharterRich/static/js/main.09b20c68.js",
     "static/media/shop1.png": "/CharterRich/static/media/shop1.1fcd174e31bc2f106e74.png",
     "static/media/product7.jpg": "/CharterRich/static/media/product7.716eec7686753b3b076c.jpg",
@@ -26,11 +26,11 @@
     "static/media/sharewons.png": "/CharterRich/static/media/sharewons.c8cb9863cc7fea5136e2.png",
     "static/media/project1.png": "/CharterRich/static/media/project1.bb52ebd321a4c1d32c42.png",
     "index.html": "/CharterRich/index.html",
-    "main.dcea12b4.css.map": "/CharterRich/static/css/main.dcea12b4.css.map",
+    "main.beafef7c.css.map": "/CharterRich/static/css/main.beafef7c.css.map",
     "main.09b20c68.js.map": "/CharterRich/static/js/main.09b20c68.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcea12b4.css",
+    "static/css/main.beafef7c.css",
     "static/js/main.09b20c68.js"
   ]
 }
