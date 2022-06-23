@@ -72,7 +72,7 @@ function Home() {
         </div>
       </div>
       <div className="home-third">
-        <p>Leave your digital solution to us</p>
+        <p className="third-title">Leave your digital solution to us</p>
         <div className="solution">
           <div className="image-left">
             <img src={solution1} />
