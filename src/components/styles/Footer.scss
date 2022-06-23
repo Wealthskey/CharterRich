@@ -8,10 +8,13 @@
   align-items: center;
   justify-content: center;
   .ftr-info {
+    margin-top: 0.5%;
     margin-left: 10%;
     .info_box {
+      text-align: left;
     }
     .info_copyright {
+      margin-bottom: 3%;
       margin-left: -30px;
     }
   }
@@ -21,10 +24,9 @@
   p {
     position: relative;
     padding-bottom: 2%;
-    // padding-top: ;
     margin-right: 64px;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     a {
       text-decoration: none;
       color: white;
@@ -44,8 +46,9 @@
 
 @media screen and (max-width: 800px) {
   .footer {
-    min-height: 250px;
-    .ftr_info {
+    min-height: 200px;
+    .ftr-info {
+      margin-bottom: 2%;
     }
     p {
       // font-size: 0.8rem;
