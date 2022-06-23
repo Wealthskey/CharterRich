@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CharterRich/static/css/main.7b2fc9e3.css",
-    "main.js": "/CharterRich/static/js/main.c103119a.js",
-    "static/media/product6.jpg": "/CharterRich/static/media/product6.b82d9c057c98eb2119cf.jpg",
+    "main.css": "/CharterRich/static/css/main.dcea12b4.css",
+    "main.js": "/CharterRich/static/js/main.d792f6b1.js",
+    "static/media/shop1.png": "/CharterRich/static/media/shop1.1fcd174e31bc2f106e74.png",
     "static/media/product7.jpg": "/CharterRich/static/media/product7.716eec7686753b3b076c.jpg",
     "static/media/product10.jpg": "/CharterRich/static/media/product10.078fc57f6ad0b79ec601.jpg",
     "static/media/product3.jpg": "/CharterRich/static/media/product3.a9f5cee1cb46b88f844a.jpg",
@@ -14,19 +14,23 @@
     "static/media/product1.jpg": "/CharterRich/static/media/product1.c4e38461c522c8850d91.jpg",
     "static/media/product4b.jpg": "/CharterRich/static/media/product4b.8da90b45114eb6bc44ec.jpg",
     "static/media/about1.png": "/CharterRich/static/media/about1.ed4dc5da3f50634a9066.png",
-    "static/media/img1.png": "/CharterRich/static/media/img1.16a92eba1cb3b94de0dd.png",
+    "static/media/banner.png": "/CharterRich/static/media/banner.7cbbe1ff6ffbb22d6531.png",
     "static/media/lockdown2.png": "/CharterRich/static/media/lockdown2.4334a987197d86e8cddb.png",
-    "static/media/img3.png": "/CharterRich/static/media/img3.a724e933db3e7f20976d.png",
-    "static/media/img2.png": "/CharterRich/static/media/img2.8aeed87a90a0172566b5.png",
+    "static/media/solution2.png": "/CharterRich/static/media/solution2.fee4cf23f9a229226263.png",
+    "static/media/solution3.png": "/CharterRich/static/media/solution3.5206caf794f87fc50c47.png",
+    "static/media/solution1.png": "/CharterRich/static/media/solution1.242b5a2509d844c6e9b4.png",
+    "static/media/car2.png": "/CharterRich/static/media/car2.c9bb0c71c41006c99877.png",
     "static/media/product5a.jpg": "/CharterRich/static/media/product5a.f4a9e8dabd934a020789.jpg",
+    "static/media/car1.png": "/CharterRich/static/media/car1.0939120e31d5cfd65791.png",
+    "static/media/car3.png": "/CharterRich/static/media/car3.a3d22c39183420ac0102.png",
     "static/media/sharewons.png": "/CharterRich/static/media/sharewons.c8cb9863cc7fea5136e2.png",
     "static/media/project1.png": "/CharterRich/static/media/project1.bb52ebd321a4c1d32c42.png",
     "index.html": "/CharterRich/index.html",
-    "main.7b2fc9e3.css.map": "/CharterRich/static/css/main.7b2fc9e3.css.map",
-    "main.c103119a.js.map": "/CharterRich/static/js/main.c103119a.js.map"
+    "main.dcea12b4.css.map": "/CharterRich/static/css/main.dcea12b4.css.map",
+    "main.d792f6b1.js.map": "/CharterRich/static/js/main.d792f6b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b2fc9e3.css",
-    "static/js/main.c103119a.js"
+    "static/css/main.dcea12b4.css",
+    "static/js/main.d792f6b1.js"
   ]
 }
