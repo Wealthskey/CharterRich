@@ -31,6 +31,7 @@ const About = () => {
     <>
       <Navbar />
       <div className="aboutAll">
+        <p className="about_company">About Our Company</p>
         <img id="img-about" src={ImgAbout} />
         <div className="content-about">
           <p>

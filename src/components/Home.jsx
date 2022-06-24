@@ -137,6 +137,8 @@ function Home() {
         </div>
       </div>
       <div className="home-final">
+        <p className="sw_intro">ShareWon Project</p>
+
         <div className="final-first">
           <div className="box">
             <img src={sharewons} alt="sharewons" />
@@ -150,7 +152,7 @@ function Home() {
               <button className="download">Download</button>
             </a>
           </div>
-          <p className="description">
+          <p className="sw_description">
             <span>ShareWon</span> is the digital token powered by blockchain.
             <p>
               The concept of ShareWon is that users earn after they pay and

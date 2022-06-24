@@ -12,10 +12,14 @@
     margin-left: 10%;
     .info_box {
       text-align: left;
+      display: flex;
+      .info_icon{
+        padding-right: 1vw;
+      }
     }
     .info_copyright {
       margin-bottom: 3%;
-      margin-left: -30px;
+
     }
   }
   .ftr-menu {
@@ -26,7 +30,7 @@
     padding-bottom: 2%;
     margin-right: 64px;
     color: white;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     a {
       text-decoration: none;
       color: white;
