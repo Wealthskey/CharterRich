@@ -72,7 +72,7 @@ function Home() {
         </div>
       </div>
       <div className="home-third">
-        <p className="third-title">Leave your digital solution to us</p>
+        <p className="title">Leave your digital solution to us</p>
         <div className="solution">
           <div className="image-left">
             <img src={solution1} />
@@ -137,8 +137,7 @@ function Home() {
         </div>
       </div>
       <div className="home-final">
-        <p className="sw_intro">ShareWon Project</p>
-
+        <p className="title">ShareWon Project</p>
         <div className="final-first">
           <div className="box">
             <img src={sharewons} alt="sharewons" />

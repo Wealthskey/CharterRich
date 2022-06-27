@@ -1,17 +1,28 @@
+.title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 43px;
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    letter-spacing: 0.06em;
+    color: #203A70;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
 .home-first {
   padding-top: 5%;
   background: rgba(230, 230, 230, 0.5);
-
   img {
       width: 90%;
       margin-left: 5%;
   }
-
   div.description {
       padding-top: 2%;
       padding-bottom: 4%;
   }
-
   p {
       font-style: normal;
       font-weight: 400;
@@ -27,19 +38,6 @@
 
 .home-second {
   background: rgba(219, 218, 218, 0.5);
-
-  p.title {
-      font-weight: 500;
-      font-size: 2rem;
-      line-height: 43px;
-      text-align: center;
-      width: 80%;
-      padding-left: 10%;
-      letter-spacing: 0.06em;
-      color: #203A70;
-      padding-top: 5%;
-      padding-bottom: 5%;
-  }
 
   .reason-car {
       display: flex;
@@ -130,18 +128,6 @@
 .home-third {
   background: #D7DAE0;
 
-  p.third-title {
-      font-weight: 500;
-      font-size: 2rem;
-      line-height: 49px;
-      text-align: center;
-      letter-spacing: 0.06em;
-      color: #203A70;
-      padding-top: 5%;
-      width: 80%;
-      padding-left: 10%;
-      padding-bottom: 5%;
-  }
 
   .solution {
       width: 90%;
@@ -232,19 +218,7 @@
 .home-final {
   background: #d4d5da;
   padding-bottom: 2%;
-  .sw_intro{
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 43px;
-    text-align: center;
-    width: 80%;
-    padding-left: 10%;
-    letter-spacing: 0.06em;
-    color: #203A70;
-    padding-top: 5%;
-  }
   .final-first {
-      padding-bottom: 5%;
       width: 80%;
       margin-left: 15%;
       display: flex;
@@ -254,7 +228,6 @@
           background: #F1F3FA;
           border: 1.3px solid #3B3C44;
           border-radius: 40px;
-          margin-top: 5%;
 
           img {
               width: 70%;
@@ -380,7 +353,10 @@
 }
 
 @media screen and (max-width: 768px) {
-
+.title{
+    font-size: 1.3rem;
+    letter-spacing: normal;
+}
   .home-second {
       div.reason-car {
           display: flex;
@@ -498,7 +474,6 @@
                   font-size: 14px;
               }
           }
-
           p.sw_description {
               padding-top: 5%;
               margin-top: 5%;

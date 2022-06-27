@@ -125,6 +125,9 @@
 
 @media screen and (max-width: 800px) {
   .aboutAll {
+    .about_company{
+      font-size: 1.5rem;
+    }
     .contact-form {
       padding: 5%;
       width: 70%;
@@ -135,7 +138,7 @@
     }
     .projectAll {
       #img-project {
-        height: 15vh;
+        height: 10vh;
         width: 60vw;
         margin-left: 20%;
         margin-right: 20%;

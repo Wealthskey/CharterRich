@@ -12,18 +12,19 @@ const Shop = () => {
         <div className="card_imgBox">
           <SimpleImageSlider
             className="card_img"
-            width={"28vw"}
-            height={"24vw"}
+            width={"30vw"}
+            height={"32vw"}
             images={item.thumb}
-            showBullets={true}
+            // showBullets={true}
             showNavs={true}
-            navSize={25}
+            navSize={15}
             navMargin={10}
           />
           <div className="card_info">
-            <h2>{item.product_name} </h2>
-
-            {/* <p>{item.description}</p> */}
+            <h2>
+              {item.product_name}
+              {/* &nbsp; ({item.description}) */}
+            </h2>
             {/* <h1 className="price">
               {item.price} */}
             {/* <span>{item.currency}</span> */}
