@@ -1,36 +1,34 @@
 {
   "files": {
-    "main.css": "/CharterRich/static/css/main.405e0ba5.css",
-    "main.js": "/CharterRich/static/js/main.6a44f79f.js",
-    "static/media/product7.jpg": "/CharterRich/static/media/product7.b6332e335aad906adf20.jpg",
-    "static/media/product3.jpg": "/CharterRich/static/media/product3.775c8447b75e7ffb2539.jpg",
-    "static/media/product10.jpg": "/CharterRich/static/media/product10.83007b8a64025491060c.jpg",
-    "static/media/product9.jpg": "/CharterRich/static/media/product9.b8cb20cfab6dea048de3.jpg",
-    "static/media/product8.jpg": "/CharterRich/static/media/product8.ea0e01e2a25f19bf7f05.jpg",
-    "static/media/product4a.jpg": "/CharterRich/static/media/product4a.fdb4b28cede71665b5ca.jpg",
-    "static/media/product2.jpg": "/CharterRich/static/media/product2.fb587b22f39bd5d1dd86.jpg",
-    "static/media/product5b.jpg": "/CharterRich/static/media/product5b.2a4cafd22c3948f1184e.jpg",
-    "static/media/product1.jpg": "/CharterRich/static/media/product1.5b6eef73afd27cc03466.jpg",
-    "static/media/product4b.jpg": "/CharterRich/static/media/product4b.8631ee6fc912b7cf5817.jpg",
+    "main.css": "/CharterRich/static/css/main.e2384b5f.css",
+    "main.js": "/CharterRich/static/js/main.892b7842.js",
     "static/media/shop1.png": "/CharterRich/static/media/shop1.92f60ef878dd73a0bcbc.png",
-    "static/media/product5a.jpg": "/CharterRich/static/media/product5a.2aa4270a82d7d4e40358.jpg",
+    "static/media/product4.jpg": "/CharterRich/static/media/product4.520d3c080b3c721ac623.jpg",
     "static/media/car3.png": "/CharterRich/static/media/car3.8402dd6cef877d620522.png",
     "static/media/solution2.png": "/CharterRich/static/media/solution2.ff85a11fe909859a386b.png",
     "static/media/about1.png": "/CharterRich/static/media/about1.f0fcf199bcd40ec4a565.png",
     "static/media/banner.png": "/CharterRich/static/media/banner.9c8937ce40dbd00ad8b7.png",
     "static/media/lockdown2.png": "/CharterRich/static/media/lockdown2.4334a987197d86e8cddb.png",
+    "static/media/product1.jpg": "/CharterRich/static/media/product1.981e178faad1c903f020.jpg",
+    "static/media/product7.jpg": "/CharterRich/static/media/product7.70399ac72c2452ba5b02.jpg",
+    "static/media/product3.jpg": "/CharterRich/static/media/product3.97071f0482048d2e99c4.jpg",
+    "static/media/product8.jpg": "/CharterRich/static/media/product8.77ff65f90ed225b199cb.jpg",
     "static/media/solution3.png": "/CharterRich/static/media/solution3.5206caf794f87fc50c47.png",
     "static/media/solution1.png": "/CharterRich/static/media/solution1.242b5a2509d844c6e9b4.png",
+    "static/media/product6.jpg": "/CharterRich/static/media/product6.501453dae9be50f0967e.jpg",
+    "static/media/product9.jpg": "/CharterRich/static/media/product9.99b50ecc3abc023439f7.jpg",
+    "static/media/product2.jpg": "/CharterRich/static/media/product2.5890000664d2d2444bf3.jpg",
     "static/media/car2.png": "/CharterRich/static/media/car2.c9bb0c71c41006c99877.png",
     "static/media/car1.png": "/CharterRich/static/media/car1.0939120e31d5cfd65791.png",
     "static/media/sharewons.png": "/CharterRich/static/media/sharewons.c8cb9863cc7fea5136e2.png",
     "static/media/project1.png": "/CharterRich/static/media/project1.bb52ebd321a4c1d32c42.png",
+    "static/media/product5.jpg": "/CharterRich/static/media/product5.eee1bb33783b673010d5.jpg",
     "index.html": "/CharterRich/index.html",
-    "main.405e0ba5.css.map": "/CharterRich/static/css/main.405e0ba5.css.map",
-    "main.6a44f79f.js.map": "/CharterRich/static/js/main.6a44f79f.js.map"
+    "main.e2384b5f.css.map": "/CharterRich/static/css/main.e2384b5f.css.map",
+    "main.892b7842.js.map": "/CharterRich/static/js/main.892b7842.js.map"
   },
   "entrypoints": [
-    "static/css/main.405e0ba5.css",
-    "static/js/main.6a44f79f.js"
+    "static/css/main.e2384b5f.css",
+    "static/js/main.892b7842.js"
   ]
 }
