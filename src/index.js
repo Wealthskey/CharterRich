@@ -6,13 +6,17 @@ import Shop from "./components/Shop";
 import About from "./components/About";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <Router>
-    <Routes>
-      <Route path="/CharterRich" element={<App />} />
-      <Route path="/shop" element={<Shop />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
+    <ScrollToTop>
+      <Routes>
+        <Route path="/CharterRich" element={<App />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </ScrollToTop>
   </Router>
 );

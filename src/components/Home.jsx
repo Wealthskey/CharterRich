@@ -39,132 +39,134 @@ function Home() {
   }
   return (
     <>
-      <div className="home-first">
+      <section className="home-intro">
         <img src={partner} />
-        <div className="description">
+        <div className="intro-text">
           <p>
             We provide the best digital technology consultancies and tools for
             business process improvements and business referral incentives,
             particularly in the trading, property, human resources and
             healthcare industries.
-          </p>
-          <p>
+            <br></br>
+            <br></br>
             We offer our own eShop for personal care and healthcare products. Go
             to eShop here directly.
           </p>
         </div>
-      </div>
-      <div className="home-second">
+      </section>
+
+      <section className="home-reasons">
         <p className="title">Why Charter Rich?</p>
-        <div className="reason-car">
-          <div className="car1">
+        <div className="reasons-cards">
+          <div className="card">
             <img src={car1} />
             <p className="reason">Save Time</p>
           </div>
-          <div className="car2">
+          <div className="card">
             <img src={car2} />
             <p className="reason">Save Cost</p>
           </div>
-          <div className="car3">
+          <div className="card">
             <img src={car3} />
             <p className="reason">Proven Technologies</p>
           </div>
         </div>
-      </div>
-      <div className="home-third">
+      </section>
+
+      <section className="home-features">
         <p className="title">Leave your digital solution to us</p>
-        <div className="solution">
-          <div className="image-left">
-            <img src={solution1} />
-            <div className="explain">
-              <p className="explain-title">
-                Business Process Improvement through Innovations
-              </p>
-              <ul className="explain-content">
-                <li>
-                  Productivity and business process improvement through our
-                  innovative technologies
-                </li>
-                <li>Customized IT applications and e-shop developments</li>
-                <li>
-                  Customer Relationship Management tools for experience
-                  enhancement
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="image-right">
-            <div className="explain">
-              <p className="explain-title">
-                Innovative Tools for Business Referrals
-              </p>
-              <ul className="explain-content">
-                <li>
-                  We offer a reward system enabling users to earn loyalty points
-                  powered by ShareWon, our blockchain wallet
-                </li>
-                <li>
-                  Users earn ShareWons by sharing an item leading to a paid
-                  transaction
-                </li>
-                <li>
-                  Rewarding customers with their loyalties and actions in
-                  referring businesses
-                </li>
-              </ul>
-            </div>
-            <img src={solution2} />
-          </div>
-          <div className="image-left">
-            <img src={solution3} />
-            <div className="explain">
-              <p className="explain-title">Digital Technology Consultancy</p>
-              <ul className="explain-content">
-                <li>
-                  We offer digital solutions to SMEs for digital transformation
-                </li>
-                <li>
-                  Sector rich expertise especially in the areas of trading,
-                  property, human resources and healthcare
-                </li>
-                <li>
-                  Provide IT consultation leading to business process
-                  improvement and customer engagement enhancement
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="home-final">
-        <p className="title">ShareWon Project</p>
-        <div className="final-first">
-          <div className="box">
-            <img src={sharewons} alt="sharewons" />
-            <p>
-              Click on the button to download the <span>Sharewon Wallet!</span>
+
+        <section className="features-leftImageBanner">
+          <img src={solution1} />
+          <div className="explain">
+            <p className="explain-title">
+              Business Process Improvement through Innovations
             </p>
-            <a
-              href="https://deploygate.com/distributions/843b855713892a6ad7c570fb999f4a3d96ca952e"
-              target="_blank"
-            >
+            <ul className="explain-content">
+              <li>
+                Productivity and business process improvement through our
+                innovative technologies
+              </li>
+              <li>Customized IT applications and e-shop developments</li>
+              <li>
+                Customer Relationship Management tools for experience
+                enhancement
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <hr className="divisionLine" />
+
+        <section className="features-RightImageBanner">
+          <div className="explain">
+            <p className="explain-title">
+              Innovative Tools for Business Referrals
+            </p>
+            <ul className="explain-content">
+              <li>
+                We offer a reward system enabling users to earn loyalty points
+                powered by ShareWon, our blockchain wallet
+              </li>
+              <li>
+                Users earn ShareWons by sharing an item leading to a paid
+                transaction
+              </li>
+              <li>
+                Rewarding customers with their loyalties and actions in
+                referring businesses
+              </li>
+            </ul>
+          </div>
+          <img src={solution2} />
+        </section>
+
+        <hr className="divisionLine" />
+
+        <section className="features-leftImageBanner">
+          <img src={solution3} />
+          <div className="explain">
+            <p className="explain-title">Digital Technology Consultancy</p>
+            <ul className="explain-content">
+              <li>
+                We offer digital solutions to SMEs for digital transformation
+              </li>
+              <li>
+                Sector rich expertise especially in the areas of trading,
+                property, human resources and healthcare
+              </li>
+              <li>
+                Provide IT consultation leading to business process improvement
+                and customer engagement enhancement
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <section className="home-shareWon">
+        <p className="title">ShareWon Project</p>
+
+        <section className="shareWon">
+          <div className="shareWon-box">
+            <img src={sharewons} alt="sharewon" />
+            <a href="https://deploygate.com/distributions/843b855713892a6ad7c570fb999f4a3d96ca952e">
               <button className="download">Download</button>
             </a>
           </div>
-          <p className="sw_description">
+          <p className="shareWon-description">
             <span>ShareWon</span> is the digital token powered by blockchain.
-            <p>
-              The concept of ShareWon is that users earn after they pay and
-              share leading to another paid transaction.
-            </p>
-            <p>
-              This is an excellent customer reward system and a business
-              referral system offered to small and medium enterprises, with
-              innovations in the digital transformation.
-            </p>
+            <br></br> <br></br>
+            The concept of ShareWon is that users earn after they pay and share
+            leading to another paid transaction.
+            <br></br> <br></br>
+            This is an excellent customer reward system and a business referral
+            system offered to small and medium enterprises, with innovations in
+            the digital transformation.
           </p>
-        </div>
-        <div className="final-second">
+        </section>
+
+        <section className="home-contact">
           <p>Contact our consultants for a demo and solution discussions!</p>
           <div className="contact-form">
             <form onSubmit={sendEmail} className="inputContainer">
@@ -178,13 +180,13 @@ function Home() {
               <label for="email">Email*</label>
               <input type="email" id="email" name="email" required />
               <br />
-              <button type="submit" className="send">
-                send
-              </button>
             </form>
+            <button type="submit" className="send">
+              send
+            </button>
           </div>
-        </div>
-      </div>
+        </section>
+      </section>
     </>
   );
 }
