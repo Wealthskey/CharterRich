@@ -49,8 +49,9 @@ function Home() {
             healthcare industries.
             <br></br>
             <br></br>
-            We offer our own eShop for personal care and healthcare products. Go
-            to eShop here directly.
+            We offer our own E-Shop for personal care and healthcare products.
+            Go to E-Shop{" "}
+            <a href="https://charterrich-eshop.company.site/">here</a> directly.
           </p>
         </div>
       </section>
