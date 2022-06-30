@@ -12,30 +12,23 @@ import emailjs from "emailjs-com";
 function Home() {
   function sendEmail(e) {
     e.preventDefault();
-    const result = window.confirm("Are you sure to contact us ?");
-    if (result) {
-      emailjs
-        .sendForm(
-          "service_8r6r47f",
-          "template_a40hbxy",
-          e.target,
-          "s8WrzzF_VKDyXz9El"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-      window.alert("Your message is sended");
-      e.target.reset();
-    } else {
-      document.getElementById("name").value = "";
-      document.getElementById("phone").value = "";
-      document.getElementById("email").value = "";
-    }
+    emailjs
+      .sendForm(
+        "service_gs2jfh8",
+        "template_m6gmmtn",
+        e.target,
+        "SARQvDPwSzwpFrxAq"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    window.alert("Your message is sended");
+    e.target.reset();
   }
   return (
     <>
