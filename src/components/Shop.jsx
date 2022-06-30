@@ -44,7 +44,7 @@ const Shop = () => {
     <>
       <Navbar />
       <div className="shopAll">
-        <h2 className="shopTitle">Charter Rich's E-Shop</h2>
+        <h2 className="title">Charter Rich's E-Shop</h2>
         <img src={Img_shop} id="img_shop" />
         <h2 className="shopIntro">
           Explore our full lifestyle lines of skincare, bodycare, healthcare and

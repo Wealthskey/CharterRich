@@ -10,28 +10,36 @@ import "./styles/About.scss";
 const About = () => {
   function sendEmail(e) {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_8r6r47f",
-        "template_a40hbxy",
-        e.target,
-        "s8WrzzF_VKDyXz9El"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
+    const result = window.confirm("Are you sure to contact us ?");
+    if (result) {
+      emailjs
+        .sendForm(
+          "service_8r6r47f",
+          "template_a40hbxy",
+          e.target,
+          "s8WrzzF_VKDyXz9El"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      window.alert("Your message is sended");
+      e.target.reset();
+    } else {
+      document.getElementById("name").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("email").value = "";
+    }
   }
   return (
     <>
       <Navbar />
-      <div className="aboutAll">
-        <p className="about_company">About Our Company</p>
+      <div className="about-intro">
+        <p className="title">About Our Company</p>
         <img id="img-about" src={ImgAbout} />
         <div className="content-about">
           <p>
@@ -43,6 +51,7 @@ const About = () => {
             innovations, as well as technology consultations for business.
           </p>
         </div>
+
         <div className="contact-form">
           <form onSubmit={sendEmail} className="inputContainer">
             <label for="name">Name*</label>
@@ -60,9 +69,11 @@ const About = () => {
             </button>
           </form>
         </div>
-        <div className="projectAll">
+        <hr className="divisionLine" />
+
+        <div className="about-project">
           <img id="img-project" src={ImgProject} />
-          <div className="content">
+          <div className="project-content">
             <p>
               <em>Project Lock World Down 20</em> is a social project led by our
               company, an initiative with the intention to stop coronavirus'
@@ -71,11 +82,12 @@ const About = () => {
               <br></br>
               <br></br>
               <br></br>
-              Please visit our project website to see details:{" "}
-              <a href="https://lwd20.org">https://lwd20.org</a>
+              Click on the image below to see details:
             </p>
           </div>
-          <img id="img-lockdown" src={ImgLockDown} />
+          <a href="https://lwd20.org">
+            <img id="img-lockdown" src={ImgLockDown} />
+          </a>
         </div>
       </div>
       <Footer />

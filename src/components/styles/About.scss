@@ -1,150 +1,95 @@
-.aboutAll {
+.about-intro {
   background-color: #f2f2f2;
-  .about_company{
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 43px;
-    text-align: center;
-    width: 80%;
-    padding-left: 10%;
-    letter-spacing: 0.06em;
-    color: #203A70;
-    padding-top: 5%;
-  }
   #img-about {
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 5%;
-    height: 70vh;
+    height: 50vh;
     width: 90vw;
   }
   .content-about {
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     p {
       font-weight: lighter;
-      font-size: 1.2rem;
+      font-size: 1rem;
       letter-spacing: 1px;
       em {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;
       }
     }
   }
-  .projectAll {
+
+  .about-project {
     #img-project {
       margin-left: 25%;
       margin-right: 25%;
       text-align: center;
       width: 50vw;
       height: 20vh;
+      margin-top: -2%;
     }
     #img-lockdown {
       width: 90vw;
-      height: 60vh;
+      height: 55vh;
       margin-top: 4%;
       margin-left: 4%;
       margin-right: 4%;
       margin-bottom: 10%;
     }
-    .title {
-      display: flex;
-      margin-left: 7%;
-      h2 {
-        padding-top: 3px;
-        font-size: 32px;
-        font-weight: 600;
-      }
-    }
-    .content {
+    .project-content {
       margin-top: 3%;
       margin-left: 5%;
       margin-right: 5%;
       p {
         font-weight: lighter;
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 1px;
         em {
-          font-size: 1.2rem;
+          font-size: 1rem;
           font-weight: 600;
         }
       }
     }
   }
-  .contact-form {
-    background: #a5c6cd;
-    width: 40%;
-    height: 100%;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-left: 30%;
-    padding: 2%;
-    margin-bottom: 5%;
-
-    form.inputContainer {
-      padding-left: 10%;
-      width: 80%;
-
-      input {
-        margin-bottom: 10%;
-        width: 100%;
-        line-height: 40px;
-        margin-right: 5%;
-        border: 1px solid blue;
-        border-radius: 4px;
-        font-size: 1rem;
-      }
-
-      label {
-        color: blue;
-        font-size: 1rem;
-      }
-    }
-
-    .send {
-      width: 80%;
-      margin-left: 10%;
-      background: #000000;
-      color: #ffffff;
-      font-weight: 700;
-      font-size: 1rem;
-      line-height: 38px;
-      letter-spacing: 0.601508px;
-      text-transform: uppercase;
-      margin-top: 20px;
-    }
-
-    .send:hover {
-      background: #2d2c2c;
-    }
-  }
 }
 
 @media screen and (max-width: 800px) {
-  .aboutAll {
-    .about_company{
-      font-size: 1.5rem;
-    }
-    .contact-form {
-      padding: 5%;
-      width: 70%;
-      margin-left: 15%;
-    }
+  .about-intro {
     #img-about {
-      height: 35vh;
+      height: 20vh;
     }
-    .projectAll {
+    .content-about{
+      p {
+        font-size: 0.8rem;
+      }
+      em{
+        font-size: 0.8rem;
+      }
+    }
+    .contact-form{
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .about-project {
       #img-project {
         height: 10vh;
-        width: 60vw;
         margin-left: 20%;
-        margin-right: 20%;
+        width: 60vw;
       }
       #img-lockdown {
-        height: 30vh;
+        height: 20vh;
+      }
+      .project-content
+      {
+        p {
+          font-size: 0.8rem;
+        }
+        em{
+          font-size: 0.8rem;
+        }
       }
     }
   }

@@ -14,8 +14,6 @@
       margin-top: 3%;
       margin-bottom: 30px;
       background-color: #c8c9d0;
-      .card_img {
-      }
     }
     .card_info {
       display: flex;
@@ -69,27 +67,16 @@
     margin-left: 5%;
     margin-right: 5%;
     width: 90vw;
-    height: 75vh;
+    height: 45vw;
   }
-  .shopTitle {
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 43px;
-    text-align: center;
-    width: 80%;
-    padding-left: 10%;
-    letter-spacing: 0.06em;
-    color: #203A70;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
+
   .shopIntro {
     margin-top: 4%;
     margin-bottom: 4%;
     margin-left: 5%;
     margin-right: 5%;
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
   }
   .card-list {
     display: grid;
@@ -104,7 +91,7 @@
       font-size: 1.3rem;
     }
     #img_shop {
-      height: 38vh;
+      height: 25vh;
     }
   }
   .card {
