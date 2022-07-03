@@ -21,13 +21,13 @@ const Footer = () => {
           <i className="info_icon">
             <FaPhoneAlt />
           </i>
-          (852)12345678
+          (852)94731067
         </span>
         <span className="info_box">
           <i className="info_icon">
             <MdEmail />
           </i>
-          admin@charterrich.com
+          charterrich2@gmail.com
         </span>
         <span className="info_copyright">
           @ 2022 Charter Rich Hong Kong Limited, All rights reserved

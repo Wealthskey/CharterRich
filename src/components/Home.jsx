@@ -27,7 +27,7 @@ function Home() {
           console.log(error.text);
         }
       );
-    window.alert("Your message is sended");
+    window.alert("Your message is sent!");
     e.target.reset();
   }
   return (
