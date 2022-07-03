@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav">
-        <Link to="/CharterRich">
+        <Link to="/">
           <img src={logo} alt="logo" className="logo" />
         </Link>
         <ul className={active}>

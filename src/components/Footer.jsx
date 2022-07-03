@@ -34,7 +34,7 @@ const Footer = () => {
         </span>
       </p>
       <p className="ftr-menu">
-        <Link Link to="/CharterRich">
+        <Link Link to="/">
           <span>Home</span>
         </Link>
         <Link to="/shop">

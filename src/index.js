@@ -8,15 +8,12 @@ import About from "./components/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "/charterrich/public/index.html"));
-});
 
 root.render(
   <Router>
     <ScrollToTop>
       <Routes>
-        <Route path="/CharterRich" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<About />} />
       </Routes>
