@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "charterrich/public/index.html"));
+  res.sendFile(path.join(__dirname, "/charterrich/public/index.html"));
 });
 
 root.render(
