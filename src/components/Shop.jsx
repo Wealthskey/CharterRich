@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Img_shop from "./img/shop1.png";
+import Img_shop from "./img/shop1.jpg";
 import product_card from "./Products";
 import "./styles/Shop.scss";
 import SimpleImageSlider from "react-simple-image-slider";
@@ -12,10 +12,9 @@ const Shop = () => {
         <div className="card_imgBox">
           <SimpleImageSlider
             className="card_img"
-            width={"30vw"}
+            width={"28vw"}
             height={"32vw"}
             images={item.thumb}
-            // showBullets={true}
             showNavs={true}
             navSize={15}
             navMargin={10}

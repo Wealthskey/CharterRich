@@ -30,7 +30,7 @@ const Footer = () => {
           charterrich2@gmail.com
         </span>
         <span className="info_copyright">
-          @ 2022 Charter Rich Hong Kong Limited, All rights reserved
+          @ Charter Rich, All rights reserved
         </span>
       </p>
       <p className="ftr-menu">
