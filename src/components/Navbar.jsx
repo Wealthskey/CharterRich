@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./styles/Navbar.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
+// import { GrLanguage } from "react-icons/gr";
 const Navbar = () => {
   const [active, setActive] = useState("nav_menu");
   const navToggle = () => {
@@ -29,6 +30,9 @@ const Navbar = () => {
         <div onClick={navToggle} className="nav_toggler">
           <GiHamburgerMenu />
         </div>
+        {/* <div onClick={navToggle} className="nav_language">
+          <GrLanguage />
+        </div> */}
       </div>
       <div className="nav_fixed"></div>
     </>
