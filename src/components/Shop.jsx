@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { useTranslation } from "react-i18next";
 import Img_shop from "./img/shop1.jpg";
 import product_card from "./Products";
 import "./styles/Shop.scss";
 import SimpleImageSlider from "react-simple-image-slider";
 const Shop = () => {
+  const { t } = useTranslation(["shop"]);
   const listItems = product_card.map((item) => (
     <div className="card" key={item.id}>
       <section className="card_container">
@@ -31,7 +33,8 @@ const Shop = () => {
 
             <button className="card_shopNow">
               <a href="https://charterrich-eshop.company.site/">
-                SHOP NOW &gt;
+                {t("shopNow")}
+                &gt;
               </a>
             </button>
           </div>
@@ -43,13 +46,9 @@ const Shop = () => {
     <>
       <Navbar />
       <div className="shopAll">
-        <h2 className="title">Charter Rich's E-Shop</h2>
+        <h2 className="title">{t("title")}</h2>
         <img src={Img_shop} id="img_shop" />
-        <h2 className="shopIntro">
-          Explore our full lifestyle lines of skincare, bodycare, healthcare and
-          fragrance online. The collection of your everyday use and health
-          journey.
-        </h2>
+        <h2 className="shopIntro">{t("intro")}</h2>
         <div className="card-list">{listItems}</div>
       </div>
       <Footer />

@@ -5,9 +5,11 @@ import emailjs from "emailjs-com";
 import ImgAbout from "./img/about1.png";
 import ImgProject from "./img/project1.png";
 import ImgLockDown from "./img/lockdown2.png";
+import { useTranslation } from "react-i18next";
 import "./styles/About.scss";
-
 const About = () => {
+  const { t } = useTranslation(["about"]);
+
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -25,40 +27,36 @@ const About = () => {
           console.log(error.text);
         }
       );
-    window.alert("Your message is sent!");
+    window.alert(t("message_alert"));
     e.target.reset();
   }
   return (
     <>
       <Navbar />
       <div className="about-intro">
-        <p className="title">About Our Company</p>
+        <p className="title">{t("title")}</p>
         <img id="img-about" src={ImgAbout} />
         <div className="content-about">
           <p>
-            <em>Charter Rich </em>is a digital technology solution company
-            providing innovative solutions to small and medium enterprises
-            especially in the e-commerce, trading, property and healthcare
-            sectors. Established in 1993 and headquartered in Hong Kong, the
-            company is leading in digital technology and business model
-            innovations, as well as technology consultations for business.
+            <em>Charter Rich </em>
+            {t("intro")}
           </p>
         </div>
 
         <div className="contact-form">
           <form onSubmit={sendEmail} className="inputContainer">
-            <label for="name">Name*</label>
+            <label for="name">{t("name")}*</label>
             <input type="text" id="name" name="name" required />
             <br />
 
-            <label for="phone">Phone*</label>
+            <label for="phone">{t("phone")}*</label>
             <input type="text" id="phone" name="phone" required />
             <br />
             <label for="email">Email*</label>
             <input type="email" id="email" name="email" required />
             <br />
             <button type="submit" className="send">
-              send
+              {t("send")}
             </button>
           </form>
         </div>
@@ -68,14 +66,12 @@ const About = () => {
           <img id="img-project" src={ImgProject} />
           <div className="project-content">
             <p>
-              <em>Project Lock World Down 20</em> is a social project led by our
-              company, an initiative with the intention to stop coronavirus'
-              transmission around the world by running a worldwide lockdown all
-              together the same time, for 20 days.
+              <em>Project Lock World Down 20</em>
+              {t("intro_2")}
               <br></br>
               <br></br>
               <br></br>
-              Click on the image below to see details:
+              {t("intro_2_2")}
             </p>
           </div>
           <a href="https://lwd20.org">

@@ -4,11 +4,12 @@ import "./App.scss";
 import App from "./App";
 import Shop from "./components/Shop";
 import About from "./components/About";
+import "./i18n";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+// const { to, staticContext, ...rest } = this.props;
 root.render(
   <Router>
     <ScrollToTop>

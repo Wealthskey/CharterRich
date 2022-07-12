@@ -33,12 +33,16 @@
     a {
       text-decoration: none;
       color: white;
+      :hover{
+        background-color: black;
+      }
     }
     span {
       display: block;
       margin-top: 2rem;
     }
   }
+
 }
 
 @media screen and (max-width: 800px) {

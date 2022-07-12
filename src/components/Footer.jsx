@@ -4,8 +4,10 @@ import "./styles/Footer.scss";
 import { MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation(["common"]);
   return (
     <section className="footer">
       <p className="ftr-info">
@@ -35,13 +37,13 @@ const Footer = () => {
       </p>
       <p className="ftr-menu">
         <Link Link to="/">
-          <span>Home</span>
+          <span>{t("home")}</span>
         </Link>
         <Link to="/shop">
-          <span>E-Shop</span>
+          <span>{t("shop")}</span>
         </Link>
         <Link to="/about">
-          <span>About</span>
+          <span>{t("about")}</span>
         </Link>
       </p>
     </section>

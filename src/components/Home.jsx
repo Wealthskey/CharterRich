@@ -9,7 +9,10 @@ import solution2 from "./img/solution2.png";
 import solution3 from "./img/solution3.png";
 import sharewons from "./img/sharewons.png";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next";
 function Home() {
+  const { t } = useTranslation(["home"]);
+
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -27,7 +30,7 @@ function Home() {
           console.log(error.text);
         }
       );
-    window.alert("Your message is sent!");
+    window.alert(t("message_alert"));
     e.target.reset();
   }
   return (
@@ -36,56 +39,47 @@ function Home() {
         <img src={partner} />
         <div className="intro-text">
           <p>
-            We provide the best digital technology consultancies and tools for
-            business process improvements and business referral incentives,
-            particularly in the trading, property, human resources and
-            healthcare industries.
+            {t("text_1")}
             <br></br>
             <br></br>
-            We offer our own E-Shop for personal care and healthcare products.
-            Go to E-Shop{" "}
-            <a href="https://charterrich-eshop.company.site/">here</a> directly.
+            {t("text_2")}
+            <a href="https://charterrich-eshop.company.site/">
+              {t("here")}
+            </a>{" "}
+            {t("directly")}.
           </p>
         </div>
       </section>
 
       <section className="home-reasons">
-        <p className="title">Why Charter Rich?</p>
+        <p className="title">{t("title_1")}</p>
         <div className="reasons-cards">
           <div className="card">
             <img src={car1} />
-            <p className="reason">Save Time</p>
+            <p className="reason">{t("reason_1")}</p>
           </div>
           <div className="card">
             <img src={car2} />
-            <p className="reason">Save Cost</p>
+            <p className="reason">{t("reason_2")}</p>
           </div>
           <div className="card">
             <img src={car3} />
-            <p className="reason">Proven Technologies</p>
+            <p className="reason">{t("reason_3")}</p>
           </div>
         </div>
       </section>
 
       <section className="home-features">
-        <p className="title">Leave your digital solution to us</p>
+        <p className="title">{t("title_2")}</p>
 
         <section className="features-leftImageBanner">
           <img src={solution1} />
           <div className="explain">
-            <p className="explain-title">
-              Business Process Improvement through Innovations
-            </p>
+            <p className="explain-title">{t("exp_title_1")}</p>
             <ul className="explain-content">
-              <li>
-                Productivity and business process improvement through our
-                innovative technologies
-              </li>
-              <li>Customized IT applications and e-shop developments</li>
-              <li>
-                Customer Relationship Management tools for experience
-                enhancement
-              </li>
+              <li>{t("exp_text_1_1")}</li>
+              <li>{t("exp_text_1_2")}</li>
+              <li>{t("exp_text_1_3")}</li>
             </ul>
           </div>
         </section>
@@ -94,22 +88,11 @@ function Home() {
 
         <section className="features-RightImageBanner">
           <div className="explain">
-            <p className="explain-title">
-              Innovative Tools for Business Referrals
-            </p>
+            <p className="explain-title">{t("exp_title_2")}</p>
             <ul className="explain-content">
-              <li>
-                We offer a reward system enabling users to earn loyalty points
-                powered by ShareWon, our blockchain wallet
-              </li>
-              <li>
-                Users earn ShareWons by sharing an item leading to a paid
-                transaction
-              </li>
-              <li>
-                Rewarding customers with their loyalties and actions in
-                referring businesses
-              </li>
+              <li>{t("exp_text_2_1")}</li>
+              <li>{t("exp_text_2_2")}</li>
+              <li>{t("exp_text_2_3")}</li>
             </ul>
           </div>
           <img src={solution2} />
@@ -120,61 +103,49 @@ function Home() {
         <section className="features-leftImageBanner">
           <img src={solution3} />
           <div className="explain">
-            <p className="explain-title">Digital Technology Consultancy</p>
+            <p className="explain-title">{t("exp_title_3")}</p>
             <ul className="explain-content">
-              <li>
-                We offer digital solutions to SMEs for digital transformation
-              </li>
-              <li>
-                Sector rich expertise especially in the areas of trading,
-                property, human resources and healthcare
-              </li>
-              <li>
-                Provide IT consultation leading to business process improvement
-                and customer engagement enhancement
-              </li>
+              <li>{t("exp_text_3_1")}</li>
+              <li>{t("exp_text_3_2")}</li>
+              <li>{t("exp_text_3_3")}</li>
             </ul>
           </div>
         </section>
       </section>
 
       <section className="home-shareWon">
-        <p className="title">ShareWon Project</p>
-
+        <p className="title">{t("title_3")}</p>
         <section className="shareWon">
           <div className="shareWon-box">
             <img src={sharewons} alt="sharewon" />
             <a href="https://deploygate.com/distributions/843b855713892a6ad7c570fb999f4a3d96ca952e">
-              <button className="download">Download</button>
+              <button className="download">{t("download")}</button>
             </a>
           </div>
           <p className="shareWon-description">
-            <span>ShareWon</span> is the digital token powered by blockchain.
+            <span>ShareWon</span> {t("text_3")}
             <br></br> <br></br>
-            The concept of ShareWon is that users earn after they pay and share
-            leading to another paid transaction.
+            {t("text_4")}
             <br></br> <br></br>
-            This is an excellent customer reward system and a business referral
-            system offered to small and medium enterprises, with innovations in
-            the digital transformation.
+            {t("text_5")}
           </p>
         </section>
 
         <section className="home-contact">
-          <p>Contact our consultants for a demo and solution discussions!</p>
+          <p>{t("text_6")}</p>
           <div className="contact-form">
             <form onSubmit={sendEmail} className="inputContainer">
-              <label for="name">Name*</label>
+              <label for="name">{t("name")}*</label>
               <input type="text" id="name" name="name" required />
               <br />
-              <label for="phone">Phone*</label>
+              <label for="phone">{t("phone")}*</label>
               <input type="text" id="phone" name="phone" required />
               <br />
-              <label for="email">Email*</label>
+              <label for="email">{t("email")}*</label>
               <input type="email" id="email" name="email" required />
               <br />
               <button type="submit" className="send">
-                send
+                {t("send")}
               </button>
             </form>
           </div>
