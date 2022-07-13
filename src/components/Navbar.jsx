@@ -46,7 +46,7 @@ const Navbar = () => {
               onChange={handleLanguageChange}
               value={localStorage.getItem("i18nextLng")}
             >
-              <option value="en">English</option>
+              <option value="en">Eng</option>
               <option value="cn">简体中文</option>
               <option value="hk">繁體中文</option>
             </select>
