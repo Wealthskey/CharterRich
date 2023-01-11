@@ -15,8 +15,8 @@ const Footer = () => {
           <i className="info_icon">
             <MdLocationOn />
           </i>
-          Room 2903, 28/F, Modern Warehouse, 6 Shing Yip Street, Kwun Tong,
-          Kowloon, Hong Kong
+          Room 2708, 27/F, Metropolis Tower, 10 Metropolis Drive, Hung Hom, Hong
+          Kong
         </span>
 
         <span className="info_box">
